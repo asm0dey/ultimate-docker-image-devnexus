@@ -1014,7 +1014,7 @@ It depends
 <v-clicks>
 
 * If "It Works" is enough for you <span v-click=2>-> **YES**</span>
-* If you need more predictable and maintanable thing <span v-click=4>-> **NO**</span>
+* If you need more predictable and maintanable thing <span v-click=3>-> **NO**</span>
 
 </v-clicks>
 
@@ -1065,6 +1065,7 @@ layout: statement
 
 # And now we have all flavours of ultimate docker images!
 
+
 ---
 
 # Quick summary?
@@ -1072,6 +1073,7 @@ layout: statement
 1. Use layers for faster deployment
 2. Use CDS for faster startup without many compromises
 3. Use CRaC for a *lightning-fast* startup (with compromises)
+4. Use native image if you're prepared to sacrifice some build time
 
 ---
 layout: two-cols-header
